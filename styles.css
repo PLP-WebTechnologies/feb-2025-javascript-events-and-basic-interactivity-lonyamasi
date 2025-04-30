@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+  font-family: 'UnifrakturCook', cursive;
+  background: linear-gradient(135deg, #fbeee6, #fffefb);
+  margin: 0;
+  padding: 0;
+  color: #2d2d2d;
+  
+}
+
+/* Header */
+header {
+  font-family: 'UnifrakturCook', cursive;
+  background: #fff8f0;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #ffd8be;
+  font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2.8em;
+  margin: 0;
+  color: #e06c75;
+}
+
+header p{
+  font-family: 'UnifrakturCook', cursive;
+}
+
+/* Main section blocks */
+section {
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+  
+
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  font-family: 'UnifrakturCook', cursive;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 154, 158, 0.3);
+}
+
+/* Accordion */
+.accordion {
+  background: #fdf1ec;
+  color: #333;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+  background-color: #ffe5d9;
+}
+
+.panel {
+  display: none;
+  padding: 10px 20px;
+  background-color: #f7f3f0;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Image Gallery */
+#galleryImage {
+  display: block;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}

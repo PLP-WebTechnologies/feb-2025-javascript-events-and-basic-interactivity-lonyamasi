@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+  <title>PoemBlog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>PoemBlog 🎨</h1>
+    <p>Welcome to the ultimate JavaScript playground!</p>
+  </header>
+
+  <section id="poem">
+    <h2>Daily Poem</h2>
+    <p id="poemText">Click the button below to reveal today's poem.</p>
+    <button id="revealBtn">Reveal Poem</button>
+  </section>
+
+  <section id="gallery">
+    <h2>Poetry Gallery</h2>
+    <img id="galleryImage" src="images/poem1.png" alt="Poetry Visual" width="200" height="150">
+    <button id="nextImage">Next Image</button>
+  </section>
+
+  <section id="accordion">
+    <h2>Poetry Tabs</h2>
+    <div class="tab">
+      <button class="accordion">Haiku</button>
+      <div class="panel"><p>Gentle spring whispers / Petals fall in soft silence / Nature writes her verse</p></div>
+    </div>
+    <div class="tab">
+      <button class="accordion">Sonnet</button>
+      <div class="panel"><p>Shall I compare thee to a summer's day? / Thou art more lovely and more temperate.</p></div>
+    </div>
+  </section>
+
+  <section id="form">
+    <h2>Submit Your Poem</h2>
+    <form id="poemForm">
+      <label>Name: <input type="text" id="name" required></label><br>
+      <label>Email: <input type="email" id="email" required></label><br>
+      <label>Password: <input type="password" id="password" required></label><br>
+      <button type="submit">Submit</button>
+      <p id="feedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
